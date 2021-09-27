@@ -22,7 +22,7 @@
 }
 
 
-@media (max-width:1024px) {
+@media (max-width:1100px) {
     .banner {
         padding: 160px 0;
     }
@@ -56,11 +56,21 @@
         font-size: 14px;
     }
     .about-content p {
-        margin-bottom: 4px;
+        text-align: justify;
     }
     .contact-contant {
         width: 30%;
         margin-left: 0;
+    }
+    .image {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .about-content {
+        width: 100%;
+        float: none;
+        text-align: center;
     }
 }
 
